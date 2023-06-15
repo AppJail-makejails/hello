@@ -8,15 +8,6 @@ Makejail for building a hello program written in C.
 appjail makejail -f gh+AppJail-makejails/hello -j hello
 ```
 
-## How to use the Image
-
-```
-OPTION start
-OPTION overwrite
-
-FROM --entrypoint gh+AppJail-makejails/hello hello:latest
-```
-
 Open a shell and run `appjail makejail`:
 
 ```
@@ -24,6 +15,13 @@ Open a shell and run `appjail makejail`:
 ...
 # appjail run -s open_hello hello
 Hello!
+```
+
+## How to build the Image
+
+```
+appjail makejail -j hello -f "gh+AppJail-makejails/hello --file build.makejail"
+appjail image export hello
 ```
 
 ## Notes

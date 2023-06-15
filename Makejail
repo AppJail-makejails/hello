@@ -1,11 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG cflags?
-
-CMD mkdir -p /hello
-COPY hello.c /hello
-CMD cc ${cflags} -o /hello/hello /hello/hello.c
-CMD rm -f /hello/hello.c
+FROM --entrypoint gh+AppJail-makejails/hello hello:latest
 
 STAGE custom:open_hello
 
