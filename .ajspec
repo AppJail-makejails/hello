@@ -1,5 +1,5 @@
 latest.name: "hello"
-latest.timestamp: 1686832206
-latest.sum.amd64: 4a5fa705582e5ffcd567f87e20f6d1b47006f9a9f9c5dd83474767cbd202744a
-latest.size.amd64: 458116
+latest.timestamp: 1686859585
+latest.sum.amd64: c01698b9f15204ec243153fda2df4cff11c348349c550105b7b764b0f4a0130d
+latest.size.amd64: 457976
 latest.source.amd64: "https://dl.dropboxusercontent.com/s/fac2ujzw1idl8xg/latest-amd64-image.appjail?dl=0"
