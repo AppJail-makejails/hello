@@ -5,13 +5,7 @@ Makejail for building a hello program written in C.
 ## How to use this Makejail
 
 ```
-appjail makejail -f gh+AppJail-makejails/hello -j hello
-```
-
-Open a shell and run `appjail makejail`:
-
-```
-# appjail makejail -j hello
+# appjail makejail -f gh+AppJail-makejails/hello -j hello
 ...
 # appjail run -s open_hello hello
 Hello!
