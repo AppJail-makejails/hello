@@ -18,6 +18,8 @@ appjail makejail -j hello -f "gh+AppJail-makejails/hello --file build.makejail"
 appjail image export hello
 ```
 
-## Notes
+## Tags
 
-* The image is only available for amd64/FreeBSD 13.2-RELEASE.
+| Tag      | Arch    | Version        |
+| -------- | ------- | -------------- |
+| `latest` | `amd64` | `13.2-RELEASE` |
