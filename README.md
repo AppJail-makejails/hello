@@ -17,7 +17,7 @@ Hello!
 
 ## How to build the Image
 
-```
+```sh
 appjail makejail -j hello -f "gh+AppJail-makejails/hello --file build.makejail"
 appjail stop hello
 appjail image export hello
