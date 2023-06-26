@@ -11,6 +11,10 @@ Makejail for building a hello program written in C.
 Hello!
 ```
 
+### Arguments
+
+* `hello_tag` (default: `latest`): see [#tags](#tags).
+
 ## How to build the Image
 
 ```
@@ -20,6 +24,6 @@ appjail image export hello
 
 ## Tags
 
-| Tag      | Arch    | Version        |
-| -------- | ------- | -------------- |
-| `latest` | `amd64` | `13.2-RELEASE` |
+| Tag           | Arch    | Version        |
+| ------------- | ------- | -------------- |
+| `latest`      | `amd64` | `13.2-RELEASE` |

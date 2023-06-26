@@ -1,6 +1,8 @@
 INCLUDE options/options.makejail
 
-FROM --entrypoint gh+AppJail-makejails/hello hello:latest
+ARG hello_tag=latest
+
+FROM --entrypoint gh+AppJail-makejails/hello hello:${hello_tag}
 
 STAGE custom:open_hello
 
