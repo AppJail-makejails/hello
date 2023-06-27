@@ -13,7 +13,7 @@ Hello!
 
 ### Arguments
 
-* `hello_plaftorm` (default: `amd64`).
+* `hello_plaftorm` (default: `host`).
 * `hello_tag` (default: `latest`): see [#tags](#tags).
 
 ## How to build the Image
