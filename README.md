@@ -13,6 +13,7 @@ Hello!
 
 ### Arguments
 
+* `hello_plaftorm` (default: `amd64`).
 * `hello_tag` (default: `latest`): see [#tags](#tags).
 
 ## How to build the Image
@@ -25,6 +26,6 @@ appjail image export hello
 
 ## Tags
 
-| Tag           | Arch    | Version        |
-| ------------- | ------- | -------------- |
-| `latest`      | `amd64` | `13.2-RELEASE` |
+| Tag           | Arch            | Version        |
+| ------------- | --------------- | -------------- |
+| `latest`      | `amd64`, `i386` | `13.2-RELEASE` |

@@ -6,3 +6,9 @@ latest.sum.amd64: c01698b9f15204ec243153fda2df4cff11c348349c550105b7b764b0f4a013
 latest.size.amd64: 457976
 latest.source.amd64: "https://dtxdf.duckdns.org/uf6eRdybz4/hello_latest_amd64_image_appjail"
 latest.source.amd64+: "https://anonget.onrender.com/uf6eRdybz4/hello_latest_amd64_image_appjail"
+latest.arch+: i386
+latest.timestamp.i386: 1687867739
+latest.sum.i386: c4059f70eeebf09bb26a83b981683b16f3c8117476f0b1304c363a600d9d13a6
+latest.size.i386: 456836
+latest.source.i386: "https://dtxdf.duckdns.org/47E8R3y9z2/hello_latest_i386_image_appjail"
+latest.source.i386+: "https://anonget.onrender.com/47E8R3y9z2/hello_latest_i386_image_appjail"
