@@ -4,4 +4,5 @@ latest.name: "hello"
 latest.timestamp.amd64: 1686859585
 latest.sum.amd64: c01698b9f15204ec243153fda2df4cff11c348349c550105b7b764b0f4a0130d
 latest.size.amd64: 457976
-latest.source.amd64: "https://dl.dropboxusercontent.com/s/fac2ujzw1idl8xg/latest-amd64-image.appjail?dl=0"
+latest.source.amd64: "https://dtxdf.duckdns.org/uf6eRdybz4/hello_latest_amd64_image_appjail"
+latest.source.amd64+: "https://anonget.onrender.com/uf6eRdybz4/hello_latest_amd64_image_appjail"
