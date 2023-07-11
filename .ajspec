@@ -1,14 +1,31 @@
-tags: latest
-latest.arch: amd64
-latest.name: "hello"
-latest.timestamp.amd64: 1686859585
-latest.sum.amd64: c01698b9f15204ec243153fda2df4cff11c348349c550105b7b764b0f4a0130d
-latest.size.amd64: 457976
-latest.source.amd64: "https://dtxdf.duckdns.org/uf6eRdybz4/hello_latest_amd64_image_appjail"
-latest.source.amd64+: "https://anonget.onrender.com/uf6eRdybz4/hello_latest_amd64_image_appjail"
-latest.arch+: i386
-latest.timestamp.i386: 1687867739
-latest.sum.i386: c4059f70eeebf09bb26a83b981683b16f3c8117476f0b1304c363a600d9d13a6
-latest.size.i386: 456836
-latest.source.i386: "https://dtxdf.duckdns.org/47E8R3y9z2/hello_latest_i386_image_appjail"
-latest.source.i386+: "https://anonget.onrender.com/47E8R3y9z2/hello_latest_i386_image_appjail"
+tags: 13.1
+13.1.arch: amd64
+13.1.name: "hello"
+13.1.timestamp.amd64: 1689053224
+13.1.sum.amd64: eb1aeabd6ccdd6083bda0f625a068b7d5d2df23a8dc60eda98d9b7ad3b74b7d9
+13.1.size.amd64: 437016
+13.1.source.amd64: https://dtxdf.duckdns.org/uaP7531az1/hello_13_1_amd64_image_appjail
+13.1.source.amd64+: https://anonget.onrender.com/uaP7531az1/hello_13_1_amd64_image_appjail
+
+13.1.arch+: i386
+13.1.timestamp.i386: 1689053270
+13.1.sum.i386: c7e1abc84ad1802f3fc152ce22a052ef42698da8063116e960db1abe1dc27c1e
+13.1.size.i386: 433952
+13.1.source.i386: https://dtxdf.duckdns.org/v7Pb5c1cz2/hello_13_1_i386_image_appjail
+13.1.source.i386+: https://anonget.onrender.com/v7Pb5c1cz2/hello_13_1_i386_image_appjail
+
+tags+: 13.2
+13.2.arch: amd64
+13.2.name: "hello"
+13.2.timestamp.amd64: 1689053227
+13.2.sum.amd64: 7eccfae0f6c45fa9a8c71ec0f55c567bfd8612ebbc9493f1f2f5a018360076cd
+13.2.size.amd64: 455272
+13.2.source.amd64: https://dtxdf.duckdns.org/wdPc5410z5/hello_13_2_amd64_image_appjail
+13.2.source.amd64+: https://anonget.onrender.com/wdPc5410z5/hello_13_2_amd64_image_appjail
+
+13.2.arch+: i386
+13.2.timestamp.i386: 1689053274
+13.2.sum.i386: 021f73752077b8c5bf73fb6b2d18b3c883fdf3f957c1d84545ef3201c6711a53
+13.2.size.i386: 455788
+13.2.source.i386: https://dtxdf.duckdns.org/xeP75a17z1/hello_13_2_i386_image_appjail
+13.2.source.i386+: https://anonget.onrender.com/xeP75a17z1/hello_13_2_i386_image_appjail

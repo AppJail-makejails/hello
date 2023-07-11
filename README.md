@@ -14,7 +14,7 @@ Hello!
 ### Arguments
 
 * `hello_plaftorm` (default: `host`).
-* `hello_tag` (default: `latest`): see [#tags](#tags).
+* `hello_tag` (default: `13.2`): see [#tags](#tags).
 
 ## How to build the Image
 
@@ -28,4 +28,5 @@ appjail image export hello
 
 | Tag           | Arch            | Version        |
 | ------------- | --------------- | -------------- |
-| `latest`      | `amd64`, `i386` | `13.2-RELEASE` |
+| `13.2`        | `amd64`, `i386` | `13.2-RELEASE` |
+| `13.1`        | `amd64`, `i386` | `13.1-RELEASE` |
