@@ -7,13 +7,6 @@ tags: 13.1
 13.1.source.amd64: https://dtxdf.duckdns.org/uaP7531az1/hello_13_1_amd64_image_appjail
 13.1.source.amd64+: https://anonget.onrender.com/uaP7531az1/hello_13_1_amd64_image_appjail
 
-13.1.arch+: i386
-13.1.timestamp.i386: 1689053270
-13.1.sum.i386: c7e1abc84ad1802f3fc152ce22a052ef42698da8063116e960db1abe1dc27c1e
-13.1.size.i386: 433952
-13.1.source.i386: https://dtxdf.duckdns.org/v7Pb5c1cz2/hello_13_1_i386_image_appjail
-13.1.source.i386+: https://anonget.onrender.com/v7Pb5c1cz2/hello_13_1_i386_image_appjail
-
 tags+: 13.2
 13.2.arch: amd64
 13.2.name: "hello"
@@ -22,10 +15,3 @@ tags+: 13.2
 13.2.size.amd64: 455272
 13.2.source.amd64: https://dtxdf.duckdns.org/wdPc5410z5/hello_13_2_amd64_image_appjail
 13.2.source.amd64+: https://anonget.onrender.com/wdPc5410z5/hello_13_2_amd64_image_appjail
-
-13.2.arch+: i386
-13.2.timestamp.i386: 1689053274
-13.2.sum.i386: 021f73752077b8c5bf73fb6b2d18b3c883fdf3f957c1d84545ef3201c6711a53
-13.2.size.i386: 455788
-13.2.source.i386: https://dtxdf.duckdns.org/xeP75a17z1/hello_13_2_i386_image_appjail
-13.2.source.i386+: https://anonget.onrender.com/xeP75a17z1/hello_13_2_i386_image_appjail

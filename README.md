@@ -26,7 +26,7 @@ appjail image export hello
 
 ## Tags
 
-| Tag           | Arch            | Version        |
-| ------------- | --------------- | -------------- |
-| `13.2`        | `amd64`, `i386` | `13.2-RELEASE` |
-| `13.1`        | `amd64`, `i386` | `13.1-RELEASE` |
+| Tag           | Arch    | Version        |
+| ------------- | --------| -------------- |
+| `13.2`        | `amd64` | `13.2-RELEASE` |
+| `13.1`        | `amd64` | `13.1-RELEASE` |
