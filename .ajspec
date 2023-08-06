@@ -1,17 +1,9 @@
-tags: 13.1
-13.1.arch: amd64
-13.1.name: "hello"
-13.1.timestamp.amd64: 1689226934
-13.1.sum.amd64: 88ed3b1bb6e3d97c6856905693fb62d15c8b0d1fe570718ca28b57bbd1fa2e20
-13.1.size.amd64: 436820
-13.1.source.amd64: https://dtxdf.duckdns.org/ndNcb62fzc/hello_13_1_amd64_image_appjail
-13.1.source.amd64+: https://anonget.onrender.com/ndNcb62fzc/hello_13_1_amd64_image_appjail
-
-tags+: 13.2
+tags: 13.2
 13.2.arch: amd64
 13.2.name: "hello"
-13.2.timestamp.amd64: 1689226937
-13.2.sum.amd64: fa7f94b2c075981f86f696575ec31570777e865c941c04ee44f35158f188e5ef
-13.2.size.amd64: 455456
-13.2.source.amd64: https://dtxdf.duckdns.org/k5N9bb2cz4/hello_13_2_amd64_image_appjail
-13.2.source.amd64+: https://anonget.onrender.com/k5N9bb2cz4/hello_13_2_amd64_image_appjail
+13.2.timestamp.amd64: 1691175577
+13.2.sum.amd64: 93eb60321eded9534aa4bbc668b019e8b87d385c65ceba046025391fa5acc099
+13.2.size.amd64: 458352
+13.2.source.amd64: https://dtxdf.duckdns.org/j3DeOc60z4/hello_13_2_amd64_image_appjail
+13.2.source.amd64+: https://storm-bsd.duckdns.org/j3DeOc60z4/hello_13_2_amd64_image_appjail
+13.2.source.amd64+: https://anonget.onrender.com/j3DeOc60z4/hello_13_2_amd64_image_appjail
