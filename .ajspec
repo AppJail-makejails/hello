@@ -1,9 +1,7 @@
 tags: 13.2
 13.2.arch: amd64
 13.2.name: "hello"
-13.2.timestamp.amd64: 1691175577
-13.2.sum.amd64: 93eb60321eded9534aa4bbc668b019e8b87d385c65ceba046025391fa5acc099
-13.2.size.amd64: 458352
-13.2.source.amd64: https://dtxdf.duckdns.org/j3DeOc60z4/hello_13_2_amd64_image_appjail
-13.2.source.amd64+: https://storm-bsd.duckdns.org/j3DeOc60z4/hello_13_2_amd64_image_appjail
-13.2.source.amd64+: https://anonget.onrender.com/j3DeOc60z4/hello_13_2_amd64_image_appjail
+13.2.timestamp.amd64: 1692006339
+13.2.sum.amd64: ada7e3640d8298baf349d0a1c49ab20f5b5e2f8add3a0b5c20e525dfda3b568d
+13.2.size.amd64: 458548
+13.2.source.amd64: "https://drive.google.com/uc?export=download&id=1uAXwbezvaMNopXxJYArgCx7yQCjkiiAT"
