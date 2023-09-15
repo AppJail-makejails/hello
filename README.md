@@ -28,4 +28,4 @@ appjail image export hello
 
 | Tag           | Arch    | Version           | Type   |
 | ------------- | --------| ----------------- | ------ |
-| `13.2`        | `amd64` | `13.2-RELEASE-p2` | `thin` |
+| `13.2`        | `amd64` | `13.2-RELEASE-p3` | `thin` |
