@@ -1,7 +1,8 @@
-tags: 13.2
+tags+: 13.2
 13.2.arch: amd64
 13.2.name: "hello"
-13.2.timestamp.amd64: 1695823357
-13.2.sum.amd64: afdee853e19da8bb6cf453c420f95a820513c194d7fe89636bda91b5288263cd
-13.2.size.amd64: 459764
-13.2.source.amd64: "http://appjail.hpc.at/hello/13.2-amd64-image.appjail"
+13.2.timestamp.amd64: 1697288255
+13.2.sum.amd64: 6b80e2bd096041416e54e67b4fb1bd78c2d058f31889d72d523c9eecf8c5cc35
+13.2.size.amd64: 457288
+13.2.source.amd64: https://images.all101bsd.download/hello/13.2-amd64-image.appjail
+13.2.source.amd64+: http://appjail.hpc.at/hello/13.2-amd64-image.appjail
