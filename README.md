@@ -16,14 +16,6 @@ Hello!
 * `hello_plaftorm` (default: `host`).
 * `hello_tag` (default: `13.2`): see [#tags](#tags).
 
-## How to build the Image
-
-```sh
-appjail makejail -j hello -f "gh+AppJail-makejails/hello --file build.makejail"
-appjail stop hello
-appjail image export hello
-```
-
 ## Tags
 
 | Tag           | Arch    | Version        | Type   |
