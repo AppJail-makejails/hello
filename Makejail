@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG hello_tag=13.2
+ARG hello_tag=13.3
 ARG hello_platform=host
 
 FROM --entrypoint gh+AppJail-makejails/hello --platform "${hello_platform}" hello:${hello_tag}
