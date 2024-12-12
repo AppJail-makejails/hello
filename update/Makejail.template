@@ -1,9 +1,10 @@
 INCLUDE options/options.makejail
 
 ARG hello_tag=%%TAG1%%
+ARG hello_ajspec=gh+AppJail-makejails/hello
 ARG hello_platform=host
 
-FROM --entrypoint gh+AppJail-makejails/hello --platform "${hello_platform}" hello:${hello_tag}
+FROM --entrypoint "${hello_ajspec}" --platform "${hello_platform}" hello:${hello_tag}
 
 STAGE custom:open_hello
 
