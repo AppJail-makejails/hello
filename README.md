@@ -14,6 +14,7 @@ Hello!
 ### Arguments
 
 * `hello_plaftorm` (default: `host`).
+* `hello_ajspec` (default: `gh+AppJail-makejails/hello`): Entry point where the `appjail-ajspec(5)` file is located.
 * `hello_tag` (default: `13.4`): see [#tags](#tags).
 
 ## Tags
