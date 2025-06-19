@@ -4,6 +4,6 @@
 int
 main(void)
 {
-	printf("Hello!\n");
+	printf("Hello from test branch!\n");
 	return EXIT_SUCCESS;
 }
