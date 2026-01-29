@@ -1,14 +1,15 @@
 tags+: 14.3
 14.3.arch: amd64
 14.3.name: "hello"
-14.3.timestamp.amd64: 1768767957
-14.3.sum.amd64: 1be0543c35092c16b44ed5a4d877e11ae3b94860c6957c456ce8347c3dd2a69c
-14.3.size.amd64: 982802
+14.3.timestamp.amd64: 1769704618
+14.3.sum.amd64: bf4eb85d302d659a8ecea3e0cfdcc4df09434f101fb4c681f1fc56e762310e41
+14.3.size.amd64: 1036138
 14.3.source.amd64: "http://appjail.hpc.at/hello/14.3-amd64-image.appjail"
 tags+: 15
 15.arch: amd64
 15.name: "hello"
-15.timestamp.amd64: 1768767987
-15.sum.amd64: b6e1080eb8a5befa384078b9231c836ce73bb57daccb36f716ed14a82500ed7a
-15.size.amd64: 2621060
+15.timestamp.amd64: 1769704644
+15.sum.amd64: f61ec330c1a2da92a72456e1ab90eea3b5db328044803586c5f5c928848a7991
+15.size.amd64: 2622911
 15.source.amd64: "http://appjail.hpc.at/hello/15-amd64-image.appjail"
+maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."
