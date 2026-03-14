@@ -1,6 +1,6 @@
 # hello
 
-Makejail for building a hello program written in C.
+Makejail for deploying a hello program written in C.
 
 ## How to use this Makejail
 
@@ -13,13 +13,18 @@ Hello!
 
 ### Arguments
 
-* `hello_plaftorm` (default: `host`).
-* `hello_ajspec` (default: `gh+AppJail-makejails/hello`): Entry point where the `appjail-ajspec(5)` file is located.
-* `hello_tag` (default: `14.3`): see [#tags](#tags).
+* `hello_from` (default: `ghcr.io/appjail-makejails/`): Location of OCI image. See also [OCI Configuration](#oci-configuration).
+* `hello_tag` (default: `latest`): OCI image tag. See also [OCI Configuration](#oci-configuration).
 
-## Tags
+## OCI Configuration
 
-| Tag           | Arch    | Version            | Type   |
-| ------------- | --------| ------------------ | ------ |
-| `14.3`    | `amd64` | `14.3-RELEASE` | `thin` |
-| `15`    | `amd64` | `15`         | `thin` |
+```yaml
+build:
+  variants:
+    - tag: 15.0
+      containerfile: Containerfile.pkg
+      aliases: ["latest"]
+      default: true
+      args:
+        FREEBSD_RELEASE: "15.0"
+```

@@ -1,10 +1,11 @@
 INCLUDE options/options.makejail
 
-ARG hello_tag=14.3
-ARG hello_ajspec=gh+AppJail-makejails/hello
-ARG hello_platform=host
+ARG hello_from=ghcr.io/appjail-makejails/hello
+ARG hello_tag=latest
 
-FROM --entrypoint "${hello_ajspec}" --platform "${hello_platform}" hello:${hello_tag}
+OPTION start
+OPTION overwrite=force
+OPTION from=${hello_from}:${hello_tag}
 
 STAGE custom:open_hello
 
