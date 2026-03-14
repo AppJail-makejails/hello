@@ -13,7 +13,7 @@ Hello!
 
 ### Arguments
 
-* `hello_from` (default: `ghcr.io/appjail-makejails/`): Location of OCI image. See also [OCI Configuration](#oci-configuration).
+* `hello_from` (default: `ghcr.io/appjail-makejails/hello`): Location of OCI image. See also [OCI Configuration](#oci-configuration).
 * `hello_tag` (default: `latest`): OCI image tag. See also [OCI Configuration](#oci-configuration).
 
 ## OCI Configuration

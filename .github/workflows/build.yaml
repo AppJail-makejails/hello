@@ -1,4 +1,4 @@
-name: Build OCI image for 
+name: Build OCI image for hello
 
 on:
   push:
@@ -12,5 +12,5 @@ jobs:
   build:
     uses: appjail-makejails/workflows/.github/workflows/daemonless-build.yaml@main
     with:
-      image_name: 
+      image_name: hello
     secrets: inherit
