@@ -5,7 +5,7 @@ Makejail for deploying a hello program written in C.
 ## How to use this Makejail
 
 ```
-# appjail makejail -f gh+AppJail-makejails/hello -j hello
+# appjail makejail -f gh+AppJail-makejails/hello -j hello -o container="args:--pull"
 ...
 # appjail run -s open_hello hello
 Hello!
