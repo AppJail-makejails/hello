@@ -1,5 +1,3 @@
-INCLUDE options/options.makejail
-
 ARG hello_from=ghcr.io/appjail-makejails/hello
 ARG hello_tag=latest
 
