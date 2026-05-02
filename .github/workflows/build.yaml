@@ -11,10 +11,10 @@ on:
   workflow_dispatch:
     inputs:
       reason:
-      description: 'Reason for the build'
-      required: false
-      type: string
-      default: 'Manual dispatch'
+        description: 'Reason for the build'
+        required: false
+        type: string
+        default: 'Manual dispatch'
 
 jobs:
   build:
