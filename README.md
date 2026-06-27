@@ -2,6 +2,10 @@
 
 Makejail for deploying a hello program written in C.
 
+
+
+<img src="" width="30%" height="auto" alt="hello logo">
+
 ## How to use this Makejail
 
 ```
@@ -11,7 +15,7 @@ Makejail for deploying a hello program written in C.
 Hello!
 ```
 
-### Arguments
+### Arguments (stage: build)
 
 * `hello_from` (default: `ghcr.io/appjail-makejails/hello`): Location of OCI image. See also [OCI Configuration](#oci-configuration).
 * `hello_tag` (default: `latest`): OCI image tag. See also [OCI Configuration](#oci-configuration).
@@ -21,10 +25,10 @@ Hello!
 ```yaml
 build:
   variants:
-    - tag: 15.0
-      containerfile: Containerfile.pkg
+    - tag: 15.1
+      containerfile: Containerfile
       aliases: ["latest"]
       default: true
       args:
-        FREEBSD_RELEASE: "15.0"
+        FREEBSD_RELEASE: "15.1"
 ```
