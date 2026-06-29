@@ -2,10 +2,6 @@
 
 Makejail for deploying a hello program written in C.
 
-
-
-<img src="" width="30%" height="auto" alt="hello logo">
-
 ## How to use this Makejail
 
 ```
