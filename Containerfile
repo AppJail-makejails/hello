@@ -15,7 +15,7 @@ WORKDIR /hello
 COPY hello.c /hello
 
 RUN pkg update && \
-    pkg install FreeBSD-clang FreeBSD-clibs-dev
+    pkg install -U FreeBSD-clang FreeBSD-clibs-dev
 
 RUN cc ${CFLAGS} -o hello hello.c
 
